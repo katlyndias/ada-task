@@ -33,7 +33,7 @@ Aproveite o AdaTask para um gerenciamento eficiente e organizado de suas tarefas
 --- 
 # AdaTask - Aplicativo de Gerenciamento de Tarefas via Console
 ## Descrição Geral
-O AdaTask é um aplicativo de console desenvolvido para facilitar o gerenciamento de tarefas, permitindo aos usuários criar, editar, excluir e visualizar suas tarefas pessoais e profissionais. O aplicativo realiza a simulação de um banco de dados por meio de listas em memória, proporcionando uma experiência intuitiva e eficiente.
+O AdaTask é um aplicativo de console desenvolvido para facilitar o gerenciamento de tarefas, permitindo aos usuários criar, editar, excluir e visualizar suas tarefas pessoais e profissionais. O aplicativo realiza a simulação de um banco de dados por meio de listas em memória, proporcionando uma experiência simples, intuitiva e eficiente, e não permite a criação de tarefas com datas no passado.
 
 ## Estrutura do Projeto
 - Camada de Domínio
@@ -49,10 +49,11 @@ Com a lógica de aplicação concentrada na camada de serviço, as operações d
 O controlador atua como intermediário entre o usuário e o sistema, possibilitando a interação via console. Ele processa os comandos inseridos pelo usuário e utiliza a camada de serviço para realizar as operações correspondentes, garantindo uma experiência de usuário fluida e intuitiva.
 
 ## Principais Funcionalidades
-- Criação de Tarefas: Adicione novas tarefas com detalhes personalizados, como título, descrição, prazo, etc.
-- Edição de Tarefas: Atualize detalhes de tarefas já existentes.
-- Remoção de Tarefas: Exclua tarefas que não são mais necessárias.
-- Visualização de Tarefas: Liste todas as tarefas disponíveis ou filtre por critérios específicos.
+- Criação de Tarefas: Adicione novas tarefas com os seguintes detalhes personalizados: id, título, descrição, prazo.
+- Edição de Tarefas: Atualize os detalhes de tarefas já existentes.
+- Remoção de Tarefas: Exclua as tarefas que não são mais necessárias.
+- Visualização de Tarefas: Liste todas as tarefas disponíveis e filtra a que você deseja ver os detalhes pelo id.
+- Visualização de Tarefas que vencem no dia de hoje: Liste todas as tarefas que expiram no dia de hoje, caso existentes.
 
 ## Implementação Técnica
 - Interface de Console: Uma interface de linha de comando simples para facilitar a interação do usuário.
