@@ -57,9 +57,9 @@ O controlador atua como intermediário entre o usuário e o sistema, possibilita
 ## Implementação Técnica
 - Interface de Console: Uma interface de linha de comando simples para facilitar a interação do usuário.
 - Classes de Entidade: Utilização da classe BaseTask e suas subclasses para representar diferentes tipos de tarefas.
-## Classe de Repositório: Implementação de uma lista para simular o armazenamento de dados.
-## Classe de Serviço: Responsável por implementar a lógica de negócios necessária para manipular as tarefas.
-## Classe de Controlador: Processa as entradas do usuário e coordena as operações correspondentes.
+- Classe de Repositório: Implementação de uma lista para simular o armazenamento de dados.
+- Classe de Serviço: Responsável por implementar a lógica de negócios necessária para manipular as tarefas.
+- Classe de Controlador: Processa as entradas do usuário e coordena as operações correspondentes.
 
-# Considerações Adicionais
+## Considerações Adicionais
 O projeto adere aos princípios SOLID para garantir um design limpo e extensível. Além disso, a aplicação de herança e generics é evidente nas estruturas de dados e nas operações de manipulação de tarefas, proporcionando uma arquitetura flexível e adaptável.
