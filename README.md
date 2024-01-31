@@ -36,17 +36,13 @@ Aproveite o AdaTask para um gerenciamento eficiente e organizado de suas tarefas
 O AdaTask é um aplicativo de console desenvolvido para facilitar o gerenciamento de tarefas, permitindo aos usuários criar, editar, excluir e visualizar suas tarefas pessoais e profissionais. O aplicativo realiza a simulação de um banco de dados por meio de listas em memória, proporcionando uma experiência simples, intuitiva e eficiente, e não permite a criação de tarefas com datas no passado.
 
 ## Estrutura do Projeto
-- Camada de Domínio
-No núcleo do projeto, a camada de domínio contém classes essenciais, como BaseTask, PersonalTask, WorkTask e StudyTask. Essas classes definem a estrutura e as regras de negócios que envolvem as tarefas gerenciadas pelo aplicativo.
+- Camada de Domínio: No núcleo do projeto, a camada de domínio contém classes essenciais, como BaseTask, PersonalTask, WorkTask e StudyTask. Essas classes definem a estrutura e as regras de negócios que envolvem as tarefas gerenciadas pelo aplicativo.
 
-- Camada de Repositório
-A camada de repositório é responsável pela "persistência" dos dados, utilizando listas para armazenar as informações das tarefas. Esta camada oferece métodos para adicionar, remover, atualizar e buscar tarefas, garantindo a integridade e a eficiência na manipulação dos dados.
+- Camada de Repositório: A camada de repositório é responsável pela "persistência" dos dados, utilizando listas para armazenar as informações das tarefas. Esta camada oferece métodos para adicionar, remover, atualizar e buscar tarefas, garantindo a integridade e a eficiência na manipulação dos dados.
 
-- Camada de Serviço
-Com a lógica de aplicação concentrada na camada de serviço, as operações de manipulação de tarefas são gerenciadas de forma eficaz. Essa camada interage diretamente com o repositório, executando as operações necessárias para garantir a consistência dos dados.
+- Camada de Serviço: Com a lógica de aplicação concentrada na camada de serviço, as operações de manipulação de tarefas são gerenciadas de forma eficaz. Essa camada interage diretamente com o repositório, executando as operações necessárias para garantir a consistência dos dados.
 
-- Camada de Controlador
-O controlador atua como intermediário entre o usuário e o sistema, possibilitando a interação via console. Ele processa os comandos inseridos pelo usuário e utiliza a camada de serviço para realizar as operações correspondentes, garantindo uma experiência de usuário fluida e intuitiva.
+- Camada de Controlador: O controlador atua como intermediário entre o usuário e o sistema, possibilitando a interação via console. Ele processa os comandos inseridos pelo usuário e utiliza a camada de serviço para realizar as operações correspondentes, garantindo uma experiência de usuário fluida e intuitiva.
 
 ## Principais Funcionalidades
 - Criação de Tarefas: Adicione novas tarefas com os seguintes detalhes personalizados: id, título, descrição, prazo.
