@@ -7,28 +7,17 @@ Para utilizar o AdaTask, siga as instruções abaixo:
 Certifique-se de que você possui o Java instalado em seu sistema. Você pode baixar a versão mais recente em https://www.java.com/en/ 
 
 ## Passos para Execução
-- Clone o Repositório:
-git clone https://github.com/seu-usuario/ada-task.git
-
-- Acesse o Diretório do Projeto:
-cd ada-task
-
-- Compile o Código:
-javac MainTask.java
-
-- Execute o Aplicativo:
-java MainTask
-
-- Interaja com o AdaTask:
-Siga as instruções exibidas no console para criar, editar, excluir e visualizar tarefas.
-Utilize os comandos fornecidos para navegar pelas opções disponíveis.
-
-- Encerre a Execução:
-Para encerrar o aplicativo, siga as instruções no console ou utilize o comando apropriado.
-Observações
-Certifique-se de inserir as informações solicitadas de acordo com o formato especificado durante a interação com o aplicativo.
-O aplicativo funciona em um ambiente de console, proporcionando uma experiência simples e direta.
-Aproveite o AdaTask para um gerenciamento eficiente e organizado de suas tarefas pessoais e profissionais!
+- Clone o Repositório;
+- Acesse o Diretório do Projeto;
+- Compile o Código;
+- Execute o Aplicativo;
+- Interaja com o AdaTask, seguindo as instruções exibidas no console para criar, editar, excluir e visualizar tarefas. Utilize os comandos fornecidos para navegar pelas opções disponíveis.
+- Encerre a Execução seguindo as instruções no console ou utilize o comando apropriado.
+  
+## Observações
+- Certifique-se de inserir as informações solicitadas de acordo com o formato especificado durante a interação com o aplicativo.
+- O aplicativo funciona em um ambiente de console, proporcionando uma experiência simples e direta.
+- Aproveite o AdaTask para um gerenciamento eficiente e organizado de suas tarefas pessoais e profissionais!
 
 --- 
 # AdaTask - Aplicativo de Gerenciamento de Tarefas via Console
