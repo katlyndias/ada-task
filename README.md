@@ -4,7 +4,7 @@
 Para utilizar o AdaTask, siga as instruções abaixo:
 
 ## Pré-requisitos
-Certifique-se de que você possui o Java instalado em seu sistema. Você pode baixar a versão mais recente em java.com.
+Certifique-se de que você possui o Java instalado em seu sistema. Você pode baixar a versão mais recente em java.com
 
 ## Passos para Execução
 - Clone o Repositório:
